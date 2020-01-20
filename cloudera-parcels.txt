@@ -1,0 +1,3 @@
+POINT_VERSION=5 VALIDATOR_DIR=/opt/git-cm-ext/cm_ext OS_VER=el7 PARCEL_NAME=STORM ./build-parcel.sh /opt/apache-storm-1.0.0.tar.gz
+VALIDATOR_DIR=/opt/git-cm-ext/cm_ext CSD_NAME=STORM ./build-csd.sh
+python /opt/git-cm-ext/cm_ext/make_manifest/make_manifest.py /opt/git-cm-ext/storm-parcel/build-parcel
